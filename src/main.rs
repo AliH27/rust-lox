@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-fn main() {
-    println!("Hello, world!");
-=======
+
 mod scanner;
 mod error;
 mod token;
@@ -73,5 +70,4 @@ fn run(source: &str) -> Result<(), InterpreterError> {
         println!("{:?}", token);
     }
     Ok(())
->>>>>>> 2e8a1fe (Up to "Longer Lexemes" in the Scanning chapter)
 }
